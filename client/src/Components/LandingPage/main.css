@@ -1,0 +1,80 @@
+.sec-1{
+    padding-left: 15rem;
+    padding-top: 4rem;
+}
+.sec-1 h2{
+    font-size: 4.5rem;
+    font-weight: 470;
+    margin-bottom: 1.6rem;
+}
+.sec-1 h6{
+    /* padding-left: rem; */
+    font-size: 2.7rem;
+    font-weight: 380;
+    margin-bottom: 0.8rem;
+}
+.sec-1 p{
+    /* padding-left: 20rem; */
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+.slideImg{
+    height: 40rem;
+    /* width: 60rem; */
+    left: 10%;
+}
+.w-100{
+    width: 60%!important;
+    left: 10%;
+}
+.carousel-caption{
+    right: -10%;
+    left: -12%;
+}
+.main-box{
+    background-color: black;
+    border-radius: 3rem;
+    margin-right: 14rem;
+    height: 78rem;
+}
+.container{
+    width: 75%;
+    height: 28rem;
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.container img{
+    border-radius: 2rem;
+}
+.overlay-text {
+    color: red;
+    position: absolute;
+    top: 79%; 
+    left: 17%; 
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+    
+    
+}
+.container h3{
+    font-size: 2.5rem;
+    
+}
+.image-text-wrapper {
+    position: relative;
+    display: inline-block; /* or block, depending on layout */
+}
+.box{
+    width: 20rem;
+    height: 25rem;
+    background:white;
+    margin-top: 22rem;
+    /* padding-bottom: 2rem; */
+    box-sizing: border-box;
+    font-size: 3rem;
+    border-radius: 2rem;
+
+}
